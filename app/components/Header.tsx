@@ -1,6 +1,5 @@
 import Image from "next/image"
 import { FC } from "react"
-
 export const Header: FC = () => {
   return (
     <header>
@@ -11,6 +10,7 @@ export const Header: FC = () => {
             alt="candleaf logo"
             width={126}
             height={34}
+            priority
           />
           <ul className="flex items-center justify-between gap-5 font-roboto">
             <li>Discovery</li>

@@ -1,5 +1,5 @@
 import { FC } from "react"
-import backgroundImage from "@/public/hero-bg.png"
+import backgroundImage from "@/public/hero-bg.webp"
 import Image from "next/image"
 export const Hero: FC = () => {
   return (
