@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .header__nav-link {
+    @apply hidden font-roboto hover:text-[#56B280] md:block;
+  }
+  .burger {
+    @apply fixed -right-full top-0 z-10 flex h-screen w-2/3 flex-col gap-5 bg-white pl-10 pt-10 font-roboto transition-all duration-500 md:hidden;
+  }
+  .burger-active {
+    @apply right-0;
+  }
+  .burger__link {
+    @apply font-bold text-[#56b280];
+  }
+}

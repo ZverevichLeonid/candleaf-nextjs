@@ -1,6 +1,7 @@
 import { FC } from "react"
-import backgroundImage from "@/public/hero-bg.webp"
+import backgroundImage from "@/public/utils/hero-bg.webp"
 import Image from "next/image"
+import Link from "next/link"
 export const Hero: FC = () => {
   return (
     <section>
@@ -17,10 +18,10 @@ export const Hero: FC = () => {
           justifyContent: "center",
         }}
       >
-        <div className="rounded-sm bg-white/70 px-20 pt-8 text-center backdrop-blur-md ">
+        <div className="rounded-sm bg-white/70 px-4 py-4 text-center backdrop-blur-md md:px-20 md:py-8">
           <Image
             className="mx-auto mb-2"
-            src={"/leaf.png"}
+            src={"/utils/leaf.png"}
             alt={"leaf image"}
             width={30}
             height={30}
@@ -31,10 +32,14 @@ export const Hero: FC = () => {
             <br />
             your pleasure moments
           </p>
-          <button className="pb-16">Discovery our collection</button>
+          <Link
+            href={"/discovery"}
+            className="inline-block bg-[#56b280] px-14 py-2 font-poppins font-bold  text-white shadow-md shadow-slate-500 transition-all hover:bg-[#78c99d]"
+          >
+            Discovery our collection
+          </Link>
         </div>
       </div>
     </section>
   )
 }
-// className="h- w-full bg-[url('/hero-bg.png')] bg-cover"
