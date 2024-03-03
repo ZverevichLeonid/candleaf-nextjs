@@ -6,7 +6,7 @@ import { useLoadingStatus } from "@/app/lib/hooks/useLoadingStatus"
 export default function Page() {
   const isLoading = useLoadingStatus()
   return (
-    <section className="w-full font-poppins">
+    <section className="min-h-[70vh] w-full font-poppins">
       {isLoading ? <UserCardSkeleton /> : <UserCard />}
     </section>
   )

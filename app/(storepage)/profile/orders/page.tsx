@@ -33,7 +33,7 @@ export default function Page() {
   }, [isLoading])
 
   return (
-    <section className="min-h-full w-full font-poppins">
+    <section className="min-h-[70vh] w-full font-poppins">
       <div className="min-h-full w-full rounded-lg p-2 shadow-2xl sm:p-5">
         <h1 className="mb-4 text-3xl">Orders</h1>
         {isLoadingData ? (
