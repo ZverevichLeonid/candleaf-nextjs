@@ -21,13 +21,23 @@
 
 <div align='center'>
 Основная страница
+<br> 
 <img src="https://i.ibb.co/2q4GjgW/sc-1.png">
+<br> 
 Список товаров на главной
+<br> 
 <img src="https://i.ibb.co/g312qbw/sc-2.png">
+<br> 
 Аккаунт пользователя в дизайне для планшетов
+<br> 
 <img src="https://i.ibb.co/267mcVj/sc-3.png">
+<br> 
 Админ панель товаров  
+<br> 
 <img src="https://i.ibb.co/kJYWVMd/sc-4.png">
+<br> 
 Страница свечи
+<br> 
 <img src="https://i.ibb.co/tXVd1bC/sc-5.png">
+<br> 
 </div>
