@@ -60,7 +60,7 @@ export default function Page() {
                     return (
                       <div
                         key={product.id}
-                        className="flex flex-row justify-between gap-2 rounded-lg bg-gray-200 p-2 sm:p-5"
+                        className="flex flex-row gap-2 rounded-lg bg-white p-2 sm:justify-between sm:p-5 "
                       >
                         <Image
                           className="h-[100px] w-[100px] object-contain sm:h-[150px] sm:w-[150px]"
@@ -69,7 +69,7 @@ export default function Page() {
                           width={150}
                           height={150}
                         />
-                        <div className="flex flex-col justify-between gap-2 sm:flex-row">
+                        <div className="flex w-full flex-col justify-between gap-2 sm:flex-row">
                           <span className="text-lg">{product.name}</span>
                           <span>
                             Quantity:{" "}
