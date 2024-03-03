@@ -1,3 +1,5 @@
+"use client"
+import { useSession } from "next-auth/react"
 import Link from "next/link"
 import React from "react"
 
@@ -10,6 +12,7 @@ export const BurgerMenu = ({
   setActive: (active: boolean) => void
   refLink: any
 }) => {
+  const session = useSession()
   return (
     <ul ref={refLink} className={active ? "burger-active burger" : "burger"}>
       <li className="burger__link">
@@ -28,7 +31,10 @@ export const BurgerMenu = ({
         </Link>
       </li>
       <li className="burger__link">
-        <Link onClick={() => setActive(false)} href={"/profile"}>
+        <Link
+          onClick={() => setActive(false)}
+          href={session.status === "authenticated" ? "/profile" : "sign-in"}
+        >
           Profile
         </Link>
       </li>

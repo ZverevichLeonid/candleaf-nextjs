@@ -8,10 +8,12 @@ import { Bars3Icon } from "@heroicons/react/24/solid"
 import { BurgerMenu } from "./burger-menu"
 import { XMarkIcon } from "@heroicons/react/24/outline"
 import { useOnClickOutside } from "../../lib/hooks/useOnClickOutside"
+import { useSession } from "next-auth/react"
 export const Header: FC = () => {
   const cart = useAppSelector((state: any) => state.cart.cart)
   const [totalQuantity, setTotalQuantity] = useState(0)
   const [burgerActive, setBurgerActive] = useState(false)
+  const session = useSession()
   useEffect(() => {
     if (cart.length >= 1) {
       const quantityByProduct = cart.map((item: cartItem) => item.quantity)
@@ -71,7 +73,9 @@ export const Header: FC = () => {
             active={burgerActive}
           />
           <div className="flex gap-1 ">
-            <Link href={"/profile"}>
+            <Link
+              href={session.status === "authenticated" ? "/profile" : "sign-in"}
+            >
               <Image
                 className="transition-all hover:scale-105"
                 src={"/utils/profile.svg"}
