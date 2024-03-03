@@ -35,13 +35,24 @@
 <br> 
 <img src="https://i.ibb.co/tXVd1bC/sc-5.png">
 <br> 
-<h2>Аккаунт пользователя в дизайне для планшетов</h2>
+<h2>Страница корзины</h2>
+<br> 
+<img src="https://i.ibb.co/Bf83YkN/sc-6.png">
+<br> 
+<h2>Аккаунт пользователя</h2>
 <br> 
 <img src="https://i.ibb.co/267mcVj/sc-3.png">
 <br> 
+<h2>Избранное пользователя</h2>
+<br> 
+<img src="https://i.ibb.co/pjZ6WNh/sc-7.png">
+<br> 
 <h2>Админ панель товаров</h2>
 <br> 
-<img src="https://i.ibb.co/kJYWVMd/sc-4.png">
+<img src="https://i.ibb.co/G3dHK4J/sc-9.png">
 <br> 
-
+<h2>Форма добавления товара</h2>
+<br> 
+<img src="https://i.ibb.co/GxkR5Gb/sc-8.png">
+<br> 
 </div>
