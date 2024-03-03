@@ -51,5 +51,8 @@
 <br> 
 <img src="https://i.ibb.co/kJYWVMd/sc-4.png">
 <br> 
-
+<h2>Форма добавления товара</h2>
+<br> 
+<img src="https://i.ibb.co/GxkR5Gb/sc-8.png">
+<br> 
 </div>
