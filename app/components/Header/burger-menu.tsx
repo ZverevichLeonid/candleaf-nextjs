@@ -33,7 +33,7 @@ export const BurgerMenu = ({
       <li className="burger__link">
         <Link
           onClick={() => setActive(false)}
-          href={session.status === "authenticated" ? "/profile" : "sign-in"}
+          href={session.status === "authenticated" ? "/profile" : "/sign-in"}
         >
           Profile
         </Link>

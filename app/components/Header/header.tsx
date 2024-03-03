@@ -74,7 +74,9 @@ export const Header: FC = () => {
           />
           <div className="flex gap-1 ">
             <Link
-              href={session.status === "authenticated" ? "/profile" : "sign-in"}
+              href={
+                session.status === "authenticated" ? "/profile" : "/sign-in"
+              }
             >
               <Image
                 className="transition-all hover:scale-105"
