@@ -49,7 +49,7 @@
 <br> 
 <h2>Админ панель товаров</h2>
 <br> 
-<img src="https://i.ibb.co/kJYWVMd/sc-4.png">
+<img src="https://i.ibb.co/G3dHK4J/sc-9.png">
 <br> 
 <h2>Форма добавления товара</h2>
 <br> 
