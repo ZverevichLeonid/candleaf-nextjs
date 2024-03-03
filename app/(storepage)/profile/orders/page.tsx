@@ -90,8 +90,8 @@ export default function Page() {
                                       ? calculateDiscountPrice(
                                           product.price,
                                           collection.discountValue
-                                        )
-                                      : product.price}
+                                        ).toFixed(2)
+                                      : product.price.toFixed(2)}
                                   </span>
                                 )
                               }

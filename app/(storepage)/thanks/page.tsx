@@ -14,7 +14,7 @@ export default function Page() {
     redirect()
   }, [])
   return (
-    <section className="py-40">
+    <section className="h-screen py-40">
       <h1 className="pt-10 text-center font-poppins text-3xl">
         Thank you for the order!
       </h1>
