@@ -19,7 +19,6 @@ export const WishListButton = ({
   const dispatch = useAppDispatch()
   const wishlistinfo = useAppSelector((state: any) => state.wishlist.wishlist)
   const isAdded = wishlistinfo.some((el: any) => el.id === id)
-  console.log(wishlistinfo)
   return (
     <button
       onClick={() =>

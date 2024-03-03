@@ -46,7 +46,7 @@ export default function Page() {
             </div>
             <div className="grid w-full grid-cols-2 grid-rows-[300px] gap-4">
               <Image
-                src={"/candle-aboutpage.jpg"}
+                src={"/about/candle-aboutpage.jpg"}
                 alt="candle mockup"
                 width={900}
                 height={600}
@@ -58,7 +58,7 @@ export default function Page() {
                 }}
               />
               <Image
-                src={"/candle-aboutpage-two.jpg"}
+                src={"/about/candle-aboutpage-two.jpg"}
                 alt="candle mockup"
                 width={900}
                 height={600}
@@ -114,7 +114,7 @@ export default function Page() {
             </div>
             <div className="grid w-full grid-cols-2 grid-rows-[300px] gap-4">
               <Image
-                src={"/candle-aboutpage-3.jpg"}
+                src={"/about/candle-aboutpage-3.jpg"}
                 alt="candle mockup"
                 width={900}
                 height={600}
@@ -126,7 +126,7 @@ export default function Page() {
                 }}
               />
               <Image
-                src={"/candle-aboutpage-4.jpg"}
+                src={"/about/candle-aboutpage-4.jpg"}
                 alt="candle mockup"
                 width={900}
                 height={600}
@@ -182,7 +182,7 @@ export default function Page() {
             </div>
             <div className="grid w-full grid-cols-2 grid-rows-[300px] gap-4">
               <Image
-                src={"/candle-aboutpage-5.jpg"}
+                src={"/about/candle-aboutpage-5.jpg"}
                 alt="candle mockup"
                 width={900}
                 height={600}
@@ -194,7 +194,7 @@ export default function Page() {
                 }}
               />
               <Image
-                src={"/candle-aboutpage-6.jpg"}
+                src={"/about/candle-aboutpage-6.jpg"}
                 alt="candle mockup"
                 width={900}
                 height={600}

@@ -1,3 +1,4 @@
+import { HeartIcon } from "@heroicons/react/24/outline"
 import React from "react"
 
 export const ProductPageSkeleton = () => {
@@ -60,11 +61,11 @@ export const ProductPageSkeleton = () => {
           moments.
         </p>
         <div className="flex gap-1">
-          <button className="block w-full  rounded-md bg-[#56B280] px-9 py-4 text-center text-white transition-colors hover:bg-[#84dbab] md:max-w-[160px]">
-            ...
+          <button className="flex w-full max-w-[56px] items-center justify-center rounded-md border border-gray-200 text-gray-200 transition-all hover:bg-[#56B280] hover:text-white">
+            <HeartIcon width={25} height={25} />
           </button>
           <button className="block w-full  rounded-md bg-[#56B280] px-9 py-4 text-center text-white transition-colors hover:bg-[#84dbab] md:max-w-[160px]">
-            ...
+            Add to cart
           </button>
         </div>
       </div>
