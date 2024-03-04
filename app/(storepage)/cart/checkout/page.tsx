@@ -96,7 +96,7 @@ export default function Page() {
               </div>
               <YMaps>
                 <Map
-                  className="w-full sm:w-1/2"
+                  className="min-h-[250px] w-full sm:w-1/2"
                   defaultState={{
                     center: [55.75425635316869, 37.6372484920505],
                     zoom: 18,
