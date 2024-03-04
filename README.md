@@ -31,7 +31,7 @@
 <br> 
 <img src="https://i.ibb.co/g312qbw/sc-2.png">
 <br> 
-<h2>Информация о свече</h2>
+<h2>Информация о товаре</h2>
 <br> 
 <img src="https://i.ibb.co/tXVd1bC/sc-5.png">
 <br> 
