@@ -3,23 +3,20 @@ import Image from "next/image"
 import Link from "next/link"
 import { FC, useEffect, useRef, useState } from "react"
 import { useAppSelector } from "../../lib/hooks"
-import { cartItem } from "../../lib/slices/cart-slice"
 import { Bars3Icon } from "@heroicons/react/24/solid"
 import { BurgerMenu } from "./burger-menu"
 import { XMarkIcon } from "@heroicons/react/24/outline"
 import { useOnClickOutside } from "../../lib/hooks/useOnClickOutside"
 import { useSession } from "next-auth/react"
 export const Header: FC = () => {
-  const cart = useAppSelector((state: any) => state.cart.cart)
+  const cart = useAppSelector((state) => state.cart.cart)
   const [totalQuantity, setTotalQuantity] = useState(0)
   const [burgerActive, setBurgerActive] = useState(false)
   const session = useSession()
   useEffect(() => {
     if (cart.length >= 1) {
-      const quantityByProduct = cart.map((item: cartItem) => item.quantity)
-      setTotalQuantity(
-        quantityByProduct.reduce((acc: number, item: number) => acc + item)
-      )
+      const quantityByProduct = cart.map((item) => item.quantity)
+      setTotalQuantity(quantityByProduct.reduce((acc, item) => acc + item))
     } else setTotalQuantity(0)
   }, [cart])
 

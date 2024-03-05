@@ -3,7 +3,7 @@ import { useAppSelector } from "@/app/lib/hooks"
 import React from "react"
 import { ProductsWishlist } from "@/app/components/ItemsLists/wishlist-products-list"
 export default function Page() {
-  const wishlistArray = useAppSelector((state: any) => state.wishlist.wishlist)
+  const wishlistArray = useAppSelector((state) => state.wishlist.wishlist)
   return (
     <section className="min-h-[70vh] w-full">
       <div className="min-h-full w-full rounded-lg p-5 shadow-2xl">

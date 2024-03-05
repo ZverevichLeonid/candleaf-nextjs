@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { calculateDiscountPrice, createSlug } from "@/app/lib/utils"
+import { createSlug } from "@/app/lib/utils"
 import { HeartIcon } from "@heroicons/react/24/solid"
 import { useAppDispatch } from "../../lib/hooks"
 import { deleteProduct, wishlistItem } from "../../lib/slices/wishlist-slice"

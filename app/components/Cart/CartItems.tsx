@@ -12,13 +12,13 @@ import {
 } from "@/app/lib/slices/cart-slice"
 import { FaceFrownIcon } from "@heroicons/react/24/outline"
 export const CartItems = () => {
-  const cartItems = useAppSelector((state: any) => state.cart.cart)
+  const cartItems = useAppSelector((state) => state.cart.cart)
   const dispatch = useAppDispatch()
   const [totalPrice, setTotalPrice] = useState(0)
   function calculateTotalPrice() {
-    const temp = cartItems.map((item: any) => item.quantity * item.price)
+    const temp = cartItems.map((item) => item.quantity * item.price)
     if (temp.length >= 1) {
-      const temp2 = temp.reduce((acc: any, item: any) => acc + item)
+      const temp2 = temp.reduce((acc, item) => acc + item)
       setTotalPrice(temp2)
     } else {
       setTotalPrice(0)

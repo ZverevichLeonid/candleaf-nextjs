@@ -1,10 +1,7 @@
-import { AddButton } from "@/app/components/Buttons/add-to-cart-button"
 import { ProductItem } from "@/app/components/ProductPage/product-item"
 import { ProductPageSkeleton } from "@/app/components/Skeletons/product-page-skeleton"
-import { WishListButton } from "@/app/components/Buttons/wishlist-button"
-import { fetchProduct, fetchProductsData } from "@/app/lib/data"
-import { calculateDiscountPrice, createSlug } from "@/app/lib/utils"
-import Image from "next/image"
+import { fetchProductsData } from "@/app/lib/data"
+import { createSlug } from "@/app/lib/utils"
 import { Suspense } from "react"
 
 export async function generateStaticParams() {
