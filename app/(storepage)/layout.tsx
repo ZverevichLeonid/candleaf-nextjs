@@ -10,7 +10,7 @@ export default function storeLayout({
   return (
     <StoreProvider>
       <Header />
-      <main>{children}</main>
+      <main className="min-h-[70vh]">{children}</main>
       <Footer />
     </StoreProvider>
   )
